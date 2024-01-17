@@ -3,7 +3,7 @@ var router = express.Router();
 
 //导入 moment
 const moment = require("moment");
-const AccountModel = require("../models/AccountModel");
+const AccountModel = require("../../models/AccountModel");
 
 // 记账本列表
 router.get("/account", function (req, res, next) {
